@@ -8,6 +8,7 @@ using namespace std;
       for (int i = 2 * n - 1; i >= 0; i--) {
         while (!st.empty() && st.top() <= nums[i % n]) {
           st.pop();
+            //for fun
         }
 
         if (i < n) {
